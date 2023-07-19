@@ -1,28 +1,3 @@
-# sql-gen
-Bash wrap over aix tool which using ChatGBT API key.
-
-![](./Screenshot.png)
-
-# Installation
-
-```sh
-git clone https://github.com/3xyz/sql-gen.git
-cd sql-gen/src
-# Install and set up aix (if not)
-bash setup.sh
-```
-
-# Usage
-
-```sh
-# Import your DB schemas to schema.txt
-# Change dialect in sql_gen.sh
-# Enjoy!
-sql-gen 'my query'
-```
-
-<details>
-<summary>sql_gen.sh</summary>
 #!/usr/bin/env bash
 
 main() {
@@ -50,4 +25,3 @@ project_path() {
 
 # Start 
 main "$@"
-</details>
