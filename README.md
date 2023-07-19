@@ -30,7 +30,6 @@ sql-gen 'my query'
 main() {
   SQL_DIALECT='SQLite'
   SCHEMAS_FILE="$(project_path)/schema.txt"
-  echo $project_path
   query="I have DB ${SQL_DIALECT} with following schemas:\n"
   query+=$(cat ${SCHEMAS_FILE})
   query+="\n\nWrite query which will: "
