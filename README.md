@@ -1,6 +1,6 @@
 # sql-gen
 Tool for generating sql queries with ChatGBT.
-It is just bash script over (aix)[https://github.com/projectdiscovery/aix] tool which using ChatGPT API key.
+It is just bash script over [aix](https://github.com/projectdiscovery/aix) tool which using ChatGPT API key.
 
 ![](./Screenshot.png)
 
