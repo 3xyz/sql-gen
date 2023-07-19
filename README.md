@@ -1,5 +1,5 @@
 # sql-gen
-Bash wrap over aix tool which using ChatGBT API key.
+Bash wrap over aix tool which using ChatGPT API key.
 
 ![](./Screenshot.png)
 
@@ -23,6 +23,7 @@ sql-gen 'my query'
 
 <details>
 <summary>sql_gen.sh</summary>
+```bash
 #!/usr/bin/env bash
 
 main() {
@@ -50,4 +51,5 @@ project_path() {
 
 # Start 
 main "$@"
+```
 </details>
