@@ -23,6 +23,7 @@ sql-gen 'my query'
 
 <details>
 <summary>sql_gen.sh</summary>
+    
 ```bash
 #!/usr/bin/env bash
 
